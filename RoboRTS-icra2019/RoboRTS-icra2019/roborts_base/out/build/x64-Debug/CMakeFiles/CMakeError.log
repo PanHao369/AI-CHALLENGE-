@@ -1,0 +1,11 @@
+Determining if the include file pthread.h exists failed with the following output:
+Change Dir: D:/考古车/RoboRTS-icra2019/RoboRTS-icra2019/roborts_base/out/build/x64-Debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):E:/visual studio/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe cmTC_691d7 && [1/2] Building C object CMakeFiles\cmTC_691d7.dir\CheckIncludeFile.c.obj
+FAILED: CMakeFiles/cmTC_691d7.dir/CheckIncludeFile.c.obj 
+"E:\visual studio\VC\Tools\MSVC\14.29.30037\bin\Hostx64\x64\cl.exe"  /nologo   /DWIN32 /D_WINDOWS /W3  /MDd /Zi /Ob0 /Od /RTC1 /showIncludes /FoCMakeFiles\cmTC_691d7.dir\CheckIncludeFile.c.obj /FdCMakeFiles\cmTC_691d7.dir\ /FS -c CheckIncludeFile.c
+CheckIncludeFile.c(1): fatal error C1083: 无法打开包括文件: “pthread.h”: No such file or directory
+ninja: build stopped: subcommand failed.
+
+
+
